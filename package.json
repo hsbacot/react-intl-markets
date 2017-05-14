@@ -1,0 +1,27 @@
+{
+  "name": "react-intl-markets",
+  "version": "0.0.3",
+  "description": "A component to configure certain render logic based on the current locale being provided by react-intl",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "babel src -d build",
+    "prebublish": "npm run build"
+  },
+  "keywords": [
+    "React",
+    "I18n",
+    "react-intl"
+  ],
+  "author": "hsbacot@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^19.0.2",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-airbnb": "^2.2.3"
+  }
+}
