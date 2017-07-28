@@ -1,6 +1,6 @@
 {
   "name": "react-intl-markets",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A component to configure certain render logic based on the current locale being provided by react-intl",
   "main": "build/index.js",
   "scripts": {
